@@ -33,7 +33,7 @@ const Contact = () => {
                             className="group flex-1 flex items-center justify-center gap-4 px-8 py-6 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-black rounded-2xl transition-all shadow-xl shadow-amber-500/20 text-base uppercase tracking-wider hover:scale-[1.02]"
                         >
                             <Phone size={22} />
-                            <span>Hotline: 0914 318 513</span>
+                            <span className="whitespace-nowrap">Hotline: 0914 318 513</span>
                         </a>
 
                         <a
