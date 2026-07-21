@@ -1,4 +1,4 @@
-import { Building2, Phone } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 interface NavbarProps {
@@ -29,8 +29,8 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3 group">
-                    <div className="p-2.5 bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl text-slate-950 group-hover:scale-105 transition-all shadow-lg shadow-amber-500/20">
-                        <Building2 size={20} strokeWidth={2.5} />
+                    <div className="w-10 h-10 rounded-xl overflow-hidden group-hover:scale-105 transition-all shadow-lg shadow-amber-500/20 flex-shrink-0">
+                        <img src="/logo.png" alt="Minh Khoa Property Logo" className="w-full h-full object-contain" />
                     </div>
                     <div className="flex flex-col">
                         <span className="font-extrabold text-base md:text-lg tracking-tighter text-white uppercase leading-none">
