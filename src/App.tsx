@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import PhuocDongSection from './components/PhuocDongSection.tsx';
@@ -45,6 +46,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
